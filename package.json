@@ -1,5 +1,5 @@
 {
-  "name": "clone-deep",
+  "name": "copy-deep",
   "description": "Used to do deep copy of objects and arrays (among others)",
   "version": "1.0.0",
   "main": "./build/index.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Vinccool96/clone-deep.git"
+    "url": "git://github.com/Vinccool96/copy-deep.git"
   },
   "scripts": {
     "build": "tsc",
