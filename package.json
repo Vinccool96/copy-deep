@@ -1,0 +1,36 @@
+{
+  "name": "clone-deep",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "keywords": [
+    "ts",
+    "typescript",
+    "js",
+    "javascript",
+    "copy",
+    "deep",
+    "extend",
+    "extension",
+    "preventExtensions"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vinccool96/clone-deep.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn run build && yarn pack"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  }
+}
