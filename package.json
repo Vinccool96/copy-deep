@@ -1,5 +1,6 @@
 {
   "name": "clone-deep",
+  "description": "Used to do deep copy of objects and arrays (among others)",
   "version": "1.0.0",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
